@@ -14,6 +14,4 @@ app.listen(PORT, () => {
     
 })
 
-app.get('/', (req, res) => {
-    res.send(`Salve questa è la mia e-commerce`)
-})
+app.get('/post', router)
