@@ -4,9 +4,11 @@ const index = (req, res) => {
     res.json({
         data: products,
         counter: products.length
+
     })
-    
+
 }
+
 
 
 
