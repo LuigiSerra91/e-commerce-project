@@ -10,7 +10,7 @@ app.use(cors())
 
 
 app.listen(PORT, () => {
-    console.log(`this server is on ${HOST}: ${PORT}`);
+    console.log(`this server is on ${HOST}:${PORT}`);
     
 })
 
